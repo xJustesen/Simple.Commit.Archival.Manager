@@ -1,0 +1,14 @@
+[project]
+name = "simple-commit-archival-manager"
+version = "0.1.0"
+description = "The simplest version control system you'll ever use!"
+readme = "README.md"
+requires-python = ">3.11,<3.13"
+
+[dependency-groups]
+dev = [
+  "pytest >=8.1.1,<9"
+]
+
+[project.scripts]
+scam = "scam.cli:main"
